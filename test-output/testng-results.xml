@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43517" started-at="2018-04-17T00:11:14Z" finished-at="2018-04-17T00:11:57Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="19623" started-at="2018-04-17T00:11:14Z" finished-at="2018-04-17T00:11:34Z">
+      <class name="RestAssuredGroup.parallelTesting.CrossBrowserTesting">
+        <test-method status="PASS" signature="crossBrowser(java.lang.String)[pri:0, instance:RestAssuredGroup.parallelTesting.CrossBrowserTesting@b5cdba]" name="crossBrowser" is-config="true" duration-ms="8005" started-at="2018-04-17T05:41:14Z" finished-at="2018-04-17T05:41:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowser -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:RestAssuredGroup.parallelTesting.CrossBrowserTesting@b5cdba]" name="getTitle" duration-ms="10990" started-at="2018-04-17T05:41:22Z" finished-at="2018-04-17T05:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RestAssuredGroup.parallelTesting.CrossBrowserTesting@b5cdba]" name="tearDown" is-config="true" duration-ms="616" started-at="2018-04-17T05:41:33Z" finished-at="2018-04-17T05:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RestAssuredGroup.parallelTesting.CrossBrowserTesting -->
+    </test> <!-- Chrome -->
+    <test name="IE" duration-ms="20169" started-at="2018-04-17T00:11:14Z" finished-at="2018-04-17T00:11:34Z">
+      <class name="RestAssuredGroup.parallelTesting.CrossBrowserTesting">
+        <test-method status="PASS" signature="crossBrowser(java.lang.String)[pri:0, instance:RestAssuredGroup.parallelTesting.CrossBrowserTesting@1209079]" name="crossBrowser" is-config="true" duration-ms="2791" started-at="2018-04-17T05:41:14Z" finished-at="2018-04-17T05:41:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowser -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:RestAssuredGroup.parallelTesting.CrossBrowserTesting@1209079]" name="getTitle" duration-ms="16838" started-at="2018-04-17T05:41:17Z" finished-at="2018-04-17T05:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RestAssuredGroup.parallelTesting.CrossBrowserTesting@1209079]" name="tearDown" is-config="true" duration-ms="529" started-at="2018-04-17T05:41:34Z" finished-at="2018-04-17T05:41:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RestAssuredGroup.parallelTesting.CrossBrowserTesting -->
+    </test> <!-- IE -->
+    <test name="firefox" duration-ms="43517" started-at="2018-04-17T00:11:14Z" finished-at="2018-04-17T00:11:57Z">
+      <class name="RestAssuredGroup.parallelTesting.CrossBrowserTesting">
+        <test-method status="PASS" signature="crossBrowser(java.lang.String)[pri:0, instance:RestAssuredGroup.parallelTesting.CrossBrowserTesting@1223dd8]" name="crossBrowser" is-config="true" duration-ms="32647" started-at="2018-04-17T05:41:14Z" finished-at="2018-04-17T05:41:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crossBrowser -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:RestAssuredGroup.parallelTesting.CrossBrowserTesting@1223dd8]" name="getTitle" duration-ms="8384" started-at="2018-04-17T05:41:47Z" finished-at="2018-04-17T05:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RestAssuredGroup.parallelTesting.CrossBrowserTesting@1223dd8]" name="tearDown" is-config="true" duration-ms="2475" started-at="2018-04-17T05:41:55Z" finished-at="2018-04-17T05:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RestAssuredGroup.parallelTesting.CrossBrowserTesting -->
+    </test> <!-- firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
